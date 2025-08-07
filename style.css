@@ -1,15 +1,15 @@
 /* Reset y estilos base */
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #f8f9fa;
-    color: #1b1b1bfe;
+    background-color: #007efd;
+    color: #252424fe;
     line-height: 1.0;
 }
 
@@ -20,7 +20,7 @@ body {
     --primary-color: #0582ff;
     --secondary-color: #000000;
     --accent-color: #e74c3c;
-    --light-color: #ecf0f1;
+    --light-color: #f4f6f6;
     --dark-color: #212529;
     --transition: all 0.1s ease;
 }
@@ -30,7 +30,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(17, 16, 16);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -40,7 +40,7 @@ header {
 }
 
 .container {
-    width: 90%;
+    width: 200%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -74,10 +74,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--light-color);
-    text-decoration: none;
+    color: var(black);
+    text-decoration: underline;
     font-weight: 600;
-    transition: var(--transition);
+    transition: var(--transition 0.1s);
     padding: 0.5rem 0.5rem;
     border-radius: 10px;
 }
@@ -100,7 +100,7 @@ details:not([open]) {
 
 summary {
     background: #0582ff;
-    text-align: right;
+    text-align: left;
     list-style: none;
 }
 
@@ -110,7 +110,7 @@ summary {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5c6cfa01-d87f-4393-9832-614933cf4ca6.png') no-repeat center center/cover;
-    color: white;
+    color: rgb(249, 249, 249);
     display: flex;
     align-items: center;
     text-align: center;
@@ -156,17 +156,17 @@ summary {
 /* Sobre Nosotros */
 
 .about {
-    padding: 6rem 0;
+    padding: 10rem;
     background-color: white;
 }
 
 .section-title {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .section-title h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--primary-color);
     position: relative;
     display: inline-block;
@@ -187,7 +187,7 @@ summary {
 .about-content {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .about-text {
@@ -195,7 +195,7 @@ summary {
 }
 
 .about-text h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
 }
@@ -225,7 +225,7 @@ summary {
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 10rem;
 }
 
 .product-card {
@@ -371,7 +371,7 @@ summary {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 3rem 0;
     text-align: center;
 }
