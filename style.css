@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: #007efd;
-    color: #252424fe;
+    background-color: #fefefe;
+    color: #2c2c2cfe;
     line-height: 1.0;
 }
 
@@ -31,18 +31,18 @@ body {
 header {
     background-color: var(--primary-color);
     color: rgb(17, 16, 16);
-    padding: 1rem 0;
+    padding: 0.5rem;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 2000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    width: 200%;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: auto;
+    max-width: auto;
+    margin: auto;
 }
 
 .header-content {
