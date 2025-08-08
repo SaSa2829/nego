@@ -71,6 +71,7 @@ nav ul {
 
 nav ul li {
     margin-left: 1rem;
+    display: inline-block;
 }
 
 nav ul li a {
@@ -92,6 +93,7 @@ details {
     height: 50px;
     border: 0px solid #000;
     transition: width 0.3s;
+    display: inline-block;
 }
 
 details:not([open]) {
@@ -102,6 +104,8 @@ summary {
     background: #0582ff;
     text-align: left;
     list-style: none;
+    display: block;
+    cursor: pointer;
 }
 
 
